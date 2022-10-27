@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div class="form-wrap">
+        <form action="success.html">
+          <h1>Sign Up</h1>
+
+          <input
+            type="text"
+            id="fname"
+            name="fname"
+            placeholder="First Name"
+            required
+          /><br />
+
+          <input
+            type="text"
+            id="fname"
+            name="fname"
+            placeholder="Last Name"
+            required
+          /><br />
+
+          <input
+            type="number"
+            id="number"
+            placeholder="Mobile Number"
+            required
+            minlength="11"
+          /><br />
+
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Email"
+            required
+          /><br />
+
+          <select>
+            <option value="Gender">Gender</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Custom">Custom</option>
+          </select>
+          <br />
+
+          <label for="DOB" id="dob">Date of Birth:</label>
+          <input type="date" id="date" name="date" /> <br />
+          <label for="color"> Favourite Color:</label>
+          <input type="color" id="color" /><br />
+          <a href="success.html">
+            <button type="submit">Sign Up</button>
+          </a>
+          <p>
+            By clicking the sign up button you agree to our
+            <a href="#">Terms & Conditions</a> and
+            <a href="#">Privacy policy</a>
+          </p>
+        </form>
+      </div>
+      <footer>
+        <p>Already have an account <a href="login.html">Login Here</a></p>
+      </footer>
+    </div>
+  </body>
+</html>
