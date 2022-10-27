@@ -1,0 +1,48 @@
+
+body{
+    background: grey;
+}
+.wrapper{
+    display: grid;
+    grid-template-rows: 200px 100px 150px;
+    grid-template-columns: 1.5fr .5fr 1.5fr;
+    gap: .8em;
+    width: 50%;
+    background: black;
+    padding: 1rem 2rem;
+    margin: 0 auto;
+    
+}
+
+
+.bxA{
+  background: red;
+  grid-column: 1/3;
+  
+  
+}
+
+.bxB{
+       background: yellow; 
+
+       
+}
+
+.bxC{
+     background: green;
+     grid-row: 2/4;
+     
+    
+}
+
+.bxD{
+  background: pink;
+  grid-column: 2/4;
+
+  
+}
+
+.bxE{
+   background: pink;
+   grid-column: 2/4;
+}
